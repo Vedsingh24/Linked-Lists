@@ -12,17 +12,17 @@ The Algortihm for a singly linked list is:
 10. Define a node current which initially points to the head of the list.
 11. Traverse through the list till current points to null.
 12. Display each node by making current to point to node next to it in each iteration.
+
 The Algortihm for a doubly linked list is as follows:
-Step 1: IF ptr = NULL
+1: IF ptr = NULL
   Write OVERFLOW
  Go to Step 9
- [END OF IF]
-
-Step 2: SET NEW_NODE = ptr
-Step 3: SET ptr = ptr -> NEXT
-Step 4: SET NEW_NODE -> DATA = VAL
-Step 5: SET NEW_NODE -> PREV = NULL
-Step 6: SET NEW_NODE -> NEXT = START
-Step 7: SET head -> PREV = NEW_NODE
-Step 8: SET head = NEW_NODE
-Step 9: EXIT
+ [END OF IF] 
+2: SET NEW_NODE = ptr
+3: SET ptr = ptr -> NEXT
+4: SET NEW_NODE -> DATA = VAL
+5: SET NEW_NODE -> PREV = NULL
+6: SET NEW_NODE -> NEXT = START
+7: SET head -> PREV = NEW_NODE
+8: SET head = NEW_NODE
+9: EXIT
